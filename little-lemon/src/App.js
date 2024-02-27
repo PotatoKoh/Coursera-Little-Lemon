@@ -4,6 +4,8 @@ import Header from './Components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css'; //Needed for boostrap
 import MainSection from './Components/MainSection';
 import Highlights from './Components/Highlights'
+import Testimonials from './Components/Testimonials';
+import About from './Components/About';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Header/>
       <MainSection/>
       <Highlights/>
+      <Testimonials/>
+      <About/>
     </div>
   );
 }

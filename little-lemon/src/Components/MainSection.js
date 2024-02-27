@@ -14,13 +14,15 @@ const MainSection = () => {
       <Col>
         <Card className="cards">
           <Card.Body>
-            <Card.Title>Little Lemon</Card.Title>
+            <Card.Title className ="cardTitle">Little Lemon</Card.Title>
             <Card.Subtitle className ="mb-2 text-muted">Chicago</Card.Subtitle>
             <Card.Text>
-            Little Lemon is a family owned restaurant based in Chicago. Some more words to describe this place 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </Card.Text>
-            <Button variant="primary">Order Online</Button>
           </Card.Body>
+          <Card.Footer>
+            <Button variant="primary">Order Online</Button>
+            </Card.Footer>
         </Card>
       </Col>
       <Col>

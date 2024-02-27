@@ -10,7 +10,7 @@ const Specials = (props) => {
   return (
     <>
      <Card className="cards">
-        <Card.Img variant="top" src={props.image} />
+        <Card.Img variant="top" src={props.image} className="specialsImages"/>
         <Card.Body>
           <Card.Title>{props.foodTitle}</Card.Title>
           <Card.Subtitle>{props.foodPrice}</Card.Subtitle>

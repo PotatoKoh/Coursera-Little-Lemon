@@ -6,7 +6,19 @@
 .cards{
     text-align:left;
     margin:1rem;
+    min-height:400px;
 }
 .orderOnline{
     justify-content:end;
+}
+.specialsImages{
+    max-height:186px;
+}
+.testimonials{
+    min-height:250px;
+    text-align:left;
+    margin:1rem;
+}
+.cardTitle{
+    margin:1rem;
 }
