@@ -10,9 +10,9 @@ import './Components.css'
 
 const MainSection = () => {
   return (
-    <Row className="mainSection" xs= {1} md={4}>
+    <Row className="mainSection" xs= {1} md={6}>
       <Col>
-        <Card className="description">
+        <Card className="cards">
           <Card.Body>
             <Card.Title>Little Lemon</Card.Title>
             <Card.Subtitle className ="mb-2 text-muted">Chicago</Card.Subtitle>

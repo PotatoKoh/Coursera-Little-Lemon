@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css'; //Needed for boostrap
 import MainSection from './Components/MainSection';
+import Highlights from './Components/Highlights'
 
 function App() {
   return (
@@ -13,8 +14,7 @@ function App() {
       <meta name="og:image" content="Logo.png"/>
       <Header/>
       <MainSection/>
-      <MainSection/>
-      <MainSection/>
+      <Highlights/>
     </div>
   );
 }

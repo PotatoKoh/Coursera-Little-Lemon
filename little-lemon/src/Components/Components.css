@@ -1,7 +1,12 @@
 .mainSection{
     max-height:640px;
     justify-content: center;
+    margin:5rem;
 }
-.description{
+.cards{
     text-align:left;
+    margin:1rem;
+}
+.orderOnline{
+    justify-content:end;
 }
