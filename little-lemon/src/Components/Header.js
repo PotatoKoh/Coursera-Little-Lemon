@@ -1,12 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import Logo from '../../src/Images/Logo.png';
+import Logo from '../../src/Images/LittleLemonHorizontalWhiteLogo.png';
 import {Nav,Navbar} from 'react-bootstrap'
 
 
 const Header = ()=>{
     return(
-        <Navbar expand = "lg" className = "bg-body-tertiary"> 
+        <Navbar expand = "lg" className = "navbars"> 
             <Container>
                 <Navbar.Brand href ="#home"><Image src ={Logo}/></Navbar.Brand>
                 <Nav.Link href ="#home">Home</Nav.Link>

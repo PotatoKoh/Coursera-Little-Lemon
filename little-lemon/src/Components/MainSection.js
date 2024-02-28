@@ -26,7 +26,7 @@ const MainSection = () => {
         </Card>
       </Col>
       <Col>
-      <Card.Img src={RestaurantFood} className ="mainImage"/>
+      <Card.Img src={RestaurantFood} className ="mainSectionImage"/>
       </Col>
     </Row>
   );

@@ -12,7 +12,7 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 
 const About = () => {
   return (
-    <Row className="mainSection" xs={1} md={4}>
+    <Row className="mainSection" xs={2} md={4}>
       <Col>
         <Card className="cards">
           <Card.Body>
@@ -28,20 +28,9 @@ const About = () => {
           </Card.Body>
         </Card>
       </Col>
-      <Col>
-        <Card.Img src={shef1} className="mainImage" />
-        <Card.ImgOverlay src={shef2} className="mainImage" />
-      </Col>
-      <Col>
-        <OverlayTrigger
-          placement="bottom"
-          overlay={<Card.ImgOverlay src={shef2} className="mainImage" />}
-        >
-          {({ ref, ...triggerHandler }) => (
-            <Card.Img src={shef1} className="mainImage" {...triggerHandler}
-            />
-          )}
-        </OverlayTrigger>
+      <Col className ="imageHolder">
+        <Card.Img src={shef2} className="mainImage" id ="mainImage2"/>
+        <Card.Img src={shef1} className="mainImage" id ="mainImage1"/>
       </Col>
     </Row>
   );

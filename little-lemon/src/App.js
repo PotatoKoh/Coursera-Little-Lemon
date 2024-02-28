@@ -6,6 +6,7 @@ import MainSection from './Components/MainSection';
 import Highlights from './Components/Highlights'
 import Testimonials from './Components/Testimonials';
 import About from './Components/About';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Highlights/>
       <Testimonials/>
       <About/>
+      <Footer/>
     </div>
   );
 }

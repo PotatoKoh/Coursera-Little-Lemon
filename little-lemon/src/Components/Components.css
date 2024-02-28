@@ -3,10 +3,18 @@
     justify-content: center;
     margin:5rem;
 }
+.mainSectionImage{
+    margin:1rem;
+}
 .cards{
     text-align:left;
     margin:1rem;
     min-height:400px;
+    background-color:#495E57;
+    color: white;
+}
+.cardTitle{
+    text-align: left;
 }
 .orderOnline{
     justify-content:end;
@@ -18,7 +26,30 @@
     min-height:250px;
     text-align:left;
     margin:1rem;
+    color:white;
+    background-color:#495E57;
 }
-.cardTitle{
+.cardTitleTestimonials{
     margin:1rem;
 }
+
+  .imageHolder{
+    display: grid;
+    max-width: 50%;
+    /* border: 1px solid; */
+    padding: 2rem;
+  }
+  
+  .mainImage {
+    grid-area:1/1;
+    max-height:450px;
+    max-width:360px;
+  }
+  #mainImage1{
+    padding: 0 0 0 2rem ;
+    place-self:start end;
+  }
+  #mainImage2{
+    padding:0 2rem 0 0;
+    place-self: end start; /*place bottom right */
+  }

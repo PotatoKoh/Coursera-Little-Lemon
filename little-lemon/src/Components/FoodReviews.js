@@ -10,7 +10,7 @@ const FoodReviews = (props) => {
   return (
     <>
      <Card className="testimonials">
-     <Card.Title className ="cardTitle">{props.name}</Card.Title>
+     <Card.Title className ="cardTitleTestimonials">{props.name}</Card.Title>
         <Card.Body>
             <Row>
                 <Col>
