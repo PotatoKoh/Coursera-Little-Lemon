@@ -8,7 +8,7 @@ import "./Components.css";
 
 const Specials = (props) => {
   return (
-    <>
+    <div>
      <Card className="cards">
         <Card.Img variant="top" src={props.image} className="specialsImages"/>
         <Card.Body>
@@ -22,7 +22,7 @@ const Specials = (props) => {
         <Button variant="primary">Order For Delivery</Button>
         </Card.Footer>
       </Card>
-    </>
+    </div>
   );
 };
 export default Specials;

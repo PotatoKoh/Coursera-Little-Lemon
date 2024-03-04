@@ -9,7 +9,9 @@ import React from 'react';
 import './Components.css'
 
 const MainSection = () => {
+  
   return (
+    <div className="section">
     <Row className="mainSection" xs= {1} md={6}>
       <Col>
         <Card className="cards">
@@ -29,6 +31,7 @@ const MainSection = () => {
       <Card.Img src={RestaurantFood} className ="mainSectionImage"/>
       </Col>
     </Row>
+    </div>
   );
 };
 export default MainSection;

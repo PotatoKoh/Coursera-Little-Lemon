@@ -12,12 +12,13 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 
 const About = () => {
   return (
-    <Row className="mainSection" xs={2} md={4}>
+    <div className="section">
+    <Row className="mainSection" xs={1} md={4}>
       <Col>
         <Card className="cards">
           <Card.Body>
-            <Card.Title>Little Lemon</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Chicago</Card.Subtitle>
+            <Card.Title >Little Lemon</Card.Title>
+            <Card.Subtitle text="white" className="mb-2">Chicago</Card.Subtitle>
             <Card.Text>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
@@ -33,6 +34,7 @@ const About = () => {
         <Card.Img src={shef1} className="mainImage" id ="mainImage1"/>
       </Col>
     </Row>
+    </div>
   );
 };
 export default About;

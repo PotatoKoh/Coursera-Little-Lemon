@@ -1,16 +1,26 @@
+.navbars{
+  border:solid;
+  background-color:#25302d;
+  color:white;
+}
+.section{
+  border-style: none none solid none;
+
+}
 .mainSection{
-    max-height:640px;
     justify-content: center;
     margin:5rem;
 }
 .mainSectionImage{
     margin:1rem;
 }
+
+
 .cards{
     text-align:left;
     margin:1rem;
     min-height:400px;
-    background-color:#495E57;
+    background-color:#25302d;
     color: white;
 }
 .cardTitle{
@@ -27,7 +37,7 @@
     text-align:left;
     margin:1rem;
     color:white;
-    background-color:#495E57;
+    background-color:#25302d;
 }
 .cardTitleTestimonials{
     margin:1rem;

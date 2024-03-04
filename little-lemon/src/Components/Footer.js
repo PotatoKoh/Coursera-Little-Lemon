@@ -19,7 +19,7 @@ const Footer = () => {
             <Card.Title>Doormat 
                 Navigation</Card.Title>
             <Card.Body>
-            <Navbar expand = "lg" className = "navbars"> 
+            <Navbar expand = "lg"> 
             <Stack>
                 <Nav.Link href ="#home">Home</Nav.Link>
                 <Nav.Link href ="#About">About</Nav.Link>
@@ -48,7 +48,7 @@ const Footer = () => {
         <Card className="cards">
             <Card.Title>Social Media Links</Card.Title>
             <Card.Body>
-            <Navbar expand = "lg" className = "navbars"> 
+            <Navbar expand = "lg" > 
             <Stack>
                 <Nav.Link href ="#Instagram">Instagram</Nav.Link>
                 <Nav.Link href ="#Facebook">Facebook</Nav.Link>

@@ -7,6 +7,8 @@ import Highlights from './Components/Highlights'
 import Testimonials from './Components/Testimonials';
 import About from './Components/About';
 import Footer from './Components/Footer';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function App() {
   return (

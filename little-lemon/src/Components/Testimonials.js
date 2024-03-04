@@ -37,7 +37,7 @@ const reviews ={
 }
 const Testimonials = () => {
   return (
-    <>
+    <div className="section">
     <h1>Testimonials</h1>
     <Row className="mainSection" xs= {1} md={5}>
         {reviews.foodReviews.map((item,index)=>
@@ -50,7 +50,7 @@ const Testimonials = () => {
         </Col>
         )}
     </Row>
-    </>
+    </div>
   );
 };
 export default Testimonials;
