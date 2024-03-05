@@ -9,6 +9,10 @@ import About from './Components/About';
 import Footer from './Components/Footer';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Router from './Routes';
+import { Routes,Route } from 'react-router-dom';
+import HomePage from './Components/Pages/HomePage';
+import BookingForm from './Components/Pages/BookingForm';
 
 function App() {
   return (
@@ -17,12 +21,11 @@ function App() {
       <meta name="og:title" content="little Lemon Restaurant"/>
       <meta name="og:description" content="Little restaurant is a family-owned restaurant based in Chicago serving some sort of cuisine"/>
       <meta name="og:image" content="Logo.png"/>
-      <Header/>
-      <MainSection/>
-      <Highlights/>
-      <Testimonials/>
-      <About/>
-      <Footer/>
+      {/* <Router/> */}
+      <Routes>
+        <Route path ="/" element = {<HomePage/>}/>
+        <Route path = "/BookingForm" element = {<BookingForm/>}/>
+      </Routes>
     </div>
   );
 }
