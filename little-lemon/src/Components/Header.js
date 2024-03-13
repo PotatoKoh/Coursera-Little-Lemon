@@ -13,7 +13,6 @@ const Header = ()=>{
                 <Nav.Link href ="/">Home</Nav.Link>
                 <Nav.Link href ="#About">About</Nav.Link>
                 <Nav.Link href ="#Menu">Menu</Nav.Link>
-                <Link to ="/BookingForm">Maek Reservations</Link>
                 <Nav.Link href ="/BookingForm">Reservations</Nav.Link>
                 <Nav.Link href ="#Order Online">Order Online</Nav.Link>
                 <Nav.Link href ="#Login">Login</Nav.Link>

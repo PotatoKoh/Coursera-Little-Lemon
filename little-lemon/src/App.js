@@ -13,6 +13,7 @@ import Router from './Routes';
 import { Routes,Route } from 'react-router-dom';
 import HomePage from './Components/Pages/HomePage';
 import BookingForm from './Components/Pages/BookingForm';
+import SubmitPage from './Components/Pages/SubmitPage';
 
 function App() {
   return (
